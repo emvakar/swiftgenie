@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGenie}",
+            "name": "Debug SwiftGenie",
+            "program": "${workspaceFolder:SwiftGenie}/.build/debug/SwiftGenie",
+            "preLaunchTask": "swift: Build Debug SwiftGenie"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGenie}",
+            "name": "Release SwiftGenie",
+            "program": "${workspaceFolder:SwiftGenie}/.build/release/SwiftGenie",
+            "preLaunchTask": "swift: Build Release SwiftGenie"
+        }
+    ]
+}
